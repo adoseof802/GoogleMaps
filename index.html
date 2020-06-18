@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The fun of Google Maps and APIs</title>
+    <!-- Link stylesheet with the HTML document. -->
+    <link rel="stylesheet" href="styles/index.css"/>
+</head>
+<body>
+    <!-- The elements from which we will be getting our data to display the map.
+    We will search the place on Google Maps via latitude and longitude GPS coordinates. -->
+    <input type="text" id="txtLatitude" placeholder="Latitude"/>
+    <input type="text" id="txtLongitude" placeholder="Longitude"/>
+    <!-- Upon the click of this button, the values will be stored in order to search for the intended place. -->
+    <button id="btnViewMap">View map</button>
+
+    <!-- Placeholder in which we will be embedding the map. -->
+    <div id="map"></div>
+
+    <!-- index.js is a dependency of maps.googleapis.com. -->
+    <script src="scripts/index.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3qhD6nN86KtepVLHJvOZL53iix-SeuVE"></script>
+</body>
+</html>
