@@ -39,3 +39,15 @@ button {
 button:hover {
     background-color: rgb(26, 189, 192);
 }
+
+/* Setting properties for the map. */
+#map {
+    /* Will remain transparent until coordinates are given. */
+    background-color: transparent;
+    /* Given height in order to actually display the map. */
+    height: 550px;
+    /* Leave 20px margin between form and map. */
+    margin-top: 20px;
+    /* Width of map should cover both sides. */
+    width: 100%;
+}
