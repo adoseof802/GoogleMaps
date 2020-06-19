@@ -1,0 +1,41 @@
+body {
+    /* The background image will not scroll with the rest of the page. */
+    background-attachment: fixed;
+    /* Provide path at which background image is located.*/
+    background-image: url('https://i.pinimg.com/originals/cb/63/cd/cb63cdf6b6d0a38bd6061fc03cfdff3f.jpg');
+    /* Position background image at center. */ 
+    background-position: center;
+    /* Cover the body element's entire background area. */
+    background-size: cover;
+}
+
+/* Specifying properties common in both input and button to avoid code repetition. */
+input, button {
+    /* No border surrounding the textbox and button. */
+    border: none;
+    /* No outline surrounding the textbox and button. */
+    outline: none;
+}
+
+/* Properties for the textboxes. */
+input {
+    /* Maintain same position for both button and textboxes. */
+    border-bottom: 3px solid #fff;
+    /* Leave space of 7px around the content of an element. */
+    padding: 7px;
+}
+
+/* Properties for the button. */
+button {
+    background-color: rgb(47,205,208);
+    /* Border of 3px will appear on the bottom of the button. */
+    border-bottom: 3px solid rgb(0, 129, 131);
+    color: #fff;
+    cursor: pointer;
+    padding: 7px 20px;
+}
+
+/* This property applies for when the user moves the mouse over the button. */
+button:hover {
+    background-color: rgb(26, 189, 192);
+}
